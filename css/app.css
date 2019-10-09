@@ -41,6 +41,7 @@ html, body {
 	font-weight: 300;
 }
 /* Loader */
+.loader-frame,
 .loader {
 	position: fixed;
 	height: 100%;
@@ -1923,7 +1924,7 @@ input[disabled] {
 	border: 1px #9B9FAC solid;
 	border-radius: 6px;
 	font-size: 14px;
-	padding: 20px 10px 20px 70px;
+	padding: 19px 10px 22px 65px;
 	max-height: none;
 }
 .processing-msg, .order-msg {
@@ -2026,6 +2027,7 @@ input[disabled] {
 }
 .review-details{
 	position: relative;
+	padding-left: 47px;
 }
 .form-item .terms-line:before,
 .review-details:before{
@@ -2045,25 +2047,27 @@ input[disabled] {
 	border: 2px #8C95A8 solid;
 	top: auto;
 	box-shadow:none;
+	margin-top: 1px;
 }
 .lp-macos .checkmark-term{
 	top: auto;
+	margin-top: -2px;
 }
 .terms input:checked ~ .checkmark{
 	border: 1px #1474d4 solid;
 }
 .form-item .submit-order{
 	border: 0;
-	padding: 25px 10px 25px 70px;
-}
-.lp-macos .form-item .submit-order{
-	padding: 25px 0 25px 70px;
+	padding: 26px 10px 28px 66px;
 }
 .submit-order .checkmark{
 	border-radius: 50%;
 	border: 1px #8C95A8 solid;
-	top: auto;
+	top: 26px;
 	box-shadow:none;
+}
+.lp-macos .submit-order .checkmark{
+	margin-top: 0;
 }
 .form-item .terms-line:before{
 	background: url('../assets/line_grey.png') center top repeat-y;
@@ -2077,39 +2081,59 @@ input[disabled] {
 	height: 81%;
 }
 .form-item .checkmark-term-active:before{
-	animation: submitline 0.5s ease-in-out forwards 2s;
+	animation: submitline 0.3s ease-in-out forwards 0.2s;
 }
 .form-item .terms{
 	color: #000;
 	font-size: 16px;
 }
 .lp-macos .form-item .terms{
-	padding: 21px 0 19px 70px;
+	padding: 22px 0 19px 65px;
+}
+.lp-macos .form-item .submit-order{
+	padding: 28px 0 26px 66px;
 }
 .form-item .terms b{
 	font-weight: bold;
 }
-.checkmark-term-active .checkmark-term{
-	animation: checkbox 0.5s ease-in-out forwards 1s;
-}
-.checkmark-term-active .checkmark::after{
-	animation: checkboxicon 0.5s ease-in-out forwards 1s;
-}
+/*.checkmark-term-active .checkmark-term{
+	animation: checkbox 0.5s ease-in-out forwards 0.5s;
+}*/
+/*.checkmark-term-active .checkmark::after{
+	animation: checkboxicon 0.5s ease-in-out forwards 0.5s;
+}*/
 .form-item .submit-process{
-	animation: submit 0.5s ease-in-out forwards 2s;
+	/*animation: submit 0.4s ease-in-out forwards 0.3s;*/
+	border: 1px #DFA500 solid;
 }
 .submit-process .checkmark{
-	animation: checkboxiconsubmit 0.5s ease-in-out forwards 2s;
+	/*animation: checkboxiconsubmit 0.5s ease-in-out forwards;*/
+	/*transition: all 0.3s ease-in;*/
+	border: 2px #DFA500 solid;
+	top: 37px;
+	left: 28px;
 }
 .awaiting, .long-text{
 	display: none;
 }
 .awaiting{
 	color: #DFA500;
-	background: url('../assets/awaiting.svg') center left no-repeat;
-	padding-left: 18px;
-	margin-top: 5px;
+	margin-top: 4px;
 	font-size: 13px;
+	position: relative;
+	padding-left: 17px;
+}
+.awaiting:before{
+	content: '';
+	background: url('../assets/awaiting.svg') center left no-repeat;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+.lp-macos .awaiting:before{
+	top: 1px;
 }
 .submit-process input:checked ~ .checkmark{
 	background-color: #fff;
@@ -2118,59 +2142,46 @@ input[disabled] {
 	display: none;
 }
 .submit-process .checkmarkani{
-	animation: checkmarkani 1.5s ease-in-out forwards 3s infinite;
+	animation: checkmarkani 1.5s ease-in-out forwards 0.1s infinite;
 	opacity: 0;
+	top: 37px;
+	left: 28px;
+	border: 5px #DFA500 solid;
+}
+.frame-payment-methods{
+	display: none;
+}
+.loader-frame{
+	background: url('../assets/loader/loader3.svg') center center no-repeat;
+	background-color: #fff;
+	display: none;
 }
 @keyframes checkmarkani{
 	0%{
-		transform: scale(1);
-		border: 5px #DFA500 solid;
 		opacity: 0.1;
-		top: 35px;
-		z-index: 2;
-		left: 28px;
 	}
 	30%{
 		transform: scale(1.7);
-		border: 5px #DFA500 solid;
 		opacity: 0.3;
-		z-index: 2;
-		top: 35px;
-		left: 28px;
 	}
 	40%{
 		transform: scale(2.1);
-		border: 5px #DFA500 solid;
 		opacity: 0;
-		z-index: 2;
-		top: 35px;
-		left: 28px;
 	}
 	50%{
 		transform: scale(1.8);
-		border: 5px #DFA500 solid;
 		opacity: 0.1;
-		z-index: 2;
-		top: 35px;
 	}
 	60%{
 		transform: scale(1.5);
-		border: 5px #DFA500 solid;
 		opacity: 0.3;
-		z-index: 2;
-		top: 35px;
-		left: 28px;
 	}
 	100%{
 		transform: scale(1.1);
-		border: 5px #DFA500 solid;
 		opacity: 0.2;
-		z-index: 2;
-		top: 35px;
-		left: 28px;
 	}
 }
-@keyframes checkbox{
+/*@keyframes checkbox{
 	50%{
 		border-radius: 50%;
 	}
@@ -2178,39 +2189,40 @@ input[disabled] {
 		background-color: #fff;
 		border-radius: 50%;
 	}
-}
-@keyframes checkboxicon{
+}*/
+/*@keyframes checkboxicon{
 	100%{
 		color: #3399ff;
 	}
-}
-@keyframes submit{
-	0%{
-		border: 1px #DFA500 solid;
-	}
+}*/
+/*@keyframes submit{
 	50%{
 		border: 1px #DFA500 solid;
 	}
 	100%{
 		border: 1px #DFA500 solid;
 		background-color: #fafafa;
-		border-radius: 6px;
 	}
-}
+}*/
 @keyframes submitline{
 	100%{
 		background: url('../assets/line_blue.png') center top repeat-y;
 		background-color:#fafafa;
-		height: 101%;
+		height: 102%;
 	}
 }
-@keyframes checkboxiconsubmit{
-	100%{
+/*@keyframes checkboxiconsubmit{
+	50%{
 		border: 2px #DFA500 solid;
-		top: 35px;
+		top: 37px;
 		left: 28px;
 	}
-}
+	100%{
+		border: 2px #DFA500 solid;
+		top: 37px;
+		left: 28px;
+	}
+}*/
 
 /* --------------------------------------------------------------------- */
 /* 	10. Media Ranges
