@@ -1,0 +1,259 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Four payments, interest free</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Favicon icons -->
+<link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+<!-- Vendor css -->
+<link rel="stylesheet" href="css/vendor.css">
+<!--  datepicker css -->
+<link rel="stylesheet" href="css/datepicker.min.css">
+<!-- Themify Icons -->
+<link href="css/themify-icons.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/app.css">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body style="background-color: #fff">
+
+<div class="main-wrapper">
+    <div class="app" id="app">
+       
+        <!-- Dashboard Content -->
+        <article class="content items-list-page reset-b-large">
+        	<div class="lp-checkout" id="lpCheckoutFrame">
+               <div class="lp-box" style="border: none">
+                    
+
+				    <!-- Preloader -->
+					<!--<div class="loader" id="lpLoadingCont">
+						<div class="loader-spin">
+							<div class="spin-inside">
+								<img src="assets/loader/loader1.svg" alt="" title="">
+							</div>
+						</div>
+					</div>-->
+				   
+				    <!-- Preloader -->
+					<!--<div class="loader" id="lpLoadingCont">
+						<div class="loader-spin">
+							<div class="spin-inside">
+								<img src="assets/icons/Loading1.svg" alt="" title="">
+								<div class="spin">
+									<img src="assets/icons/Oval1.svg" alt="" title="">
+								</div>
+							</div>
+						</div>
+					</div>-->
+				   			   
+                
+				   
+                    <div class="lp-details lp-checkout-frm lp-checkout-frm-reset">
+					  <div class="accordion" id="accordionExample">
+                        
+                        
+                          <!-- Payment Method 1 -->
+                          <div class="card payment-card">
+                          
+                          	<!-- Card Title -->
+                            <div class="card-title" id="headingOne">                                
+                             <label class="change-card lp-radio" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">	
+                                <span class="cno">Credit card</span>
+                                <input type="radio" name="paymentMethod" checked="checked">
+                                <span class="checkmark"></span>
+                                
+                                <!-- cards -->
+                                <div class="cards">
+                                    <img class="visa" src="assets/cards/img-fi-visa.svg" alt="" title="">
+                                    <img class="mastercard" src="assets/cards/img-fi-mastercard.svg" alt="" title="">
+                                    <img class="amex" src="assets/cards/img-fi-amex.svg" alt="" title="">
+                                </div><!-- .cards -->
+                             </label>
+                            </div><!-- .card-title -->
+                                                    
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                               <div class="card-body card-body-reset">
+								  <div class="form-item">
+										<input class="card-n" type="text" name="name" placeholder="Card number" required="required">
+
+										<!-- cards -->
+										<div class="cards">
+											<img class="visa" src="assets/cards/img-fi-visa.svg" alt="" title="">
+											<img class="mastercard" src="assets/cards/img-fi-mastercard.svg" alt="" title="">
+											<img class="amex" src="assets/cards/img-fi-amex.svg" alt="" title="">
+										</div><!-- .cards -->
+								   </div>
+
+
+								   <div class="row form-item">
+										<div class="col-sm-4 pb-3 pb-sm-0 pr-3 pr-md-2">
+											<input class="c-exp-date" type="text" name="name" placeholder="MM/YY" required="required">
+										</div>
+
+										<div class="col-sm-8 pl-3 pl-md-2">
+											<div class="form-field">
+												<input class="c-cvc" type="text" name="name" placeholder="CVV" required="required">
+												<i class="ti-help-alt clickable"></i>
+												<!-- Help Text-->
+												<div class="popover-content" style="display: none;">
+													<div class="pcontent">
+														CVV number is a three digit number printed on the rear of the card.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- .form-item -->
+
+
+									<!-- Start Pay Later -->
+									<div class="form-item">
+										<div class="pay-later">
+											<div class="row">
+												<div class="col-9">
+													<div class="pay-later-text">
+														Pay in 4 instalments, interest free&nbsp;<i class="ti-help-alt clickable-paylater"></i>
+													</div>
+												</div>
+
+
+												<!-- Switch -->
+												<div class="col-3 text-right">
+													<label class="switch pull-right">
+													  <input type="checkbox">
+													  <span class="slider round"></span>
+													</label>
+												</div>
+											</div>
+											
+
+											<!-- pay-later-extra -->
+											<div class="pay-later-extra">
+												<div class="form-item">
+													<input type="email" name="name" placeholder="Email" required="required">
+												</div><!--  .form-item -->
+												
+												
+												<div class="form-item">
+													<input type="email" name="name" placeholder="Email" required="required">
+												</div><!--  .form-item -->
+												
+												<div class="addtional-notes addtional-notes-reset">
+													<div class="note">
+														<p>Pay $35.00 today, then 3 fortnightly $34.98 instalments.</p>
+														<a href="">Change today’s payment amount</a>
+													</div>
+
+													<div class="note">
+														<p>$5 late fee applies.</p>
+														<a href="">See full terms</a>
+													</div>
+												</div><!-- .pay-later-extra -->
+											</div>
+										</div>
+
+
+										<!-- form actions -->
+										<div class="pay-later-actions"> 
+											<a class="btn btn-reset blue disabled" href="">Next: Review payment plan</a>
+											<p class="text-center">We’ll email and text you to check your details before confirming your plan.</p>
+										</div><!-- .pay-later-actions -->
+									</div><!-- End Pay Later -->
+								   
+								   
+								    <!-- Start Hover Text -->
+									<div class="popover-reset">
+										<div class="pcontent pay-later-helptext">
+											<div class="row">
+												<!-- List -->
+												<div class="col-sm-4 text-center">
+													<div class="modal-list">
+														<div class="modal-icon">
+															<img src="assets/icons/credit-card.svg" alt="" title="">
+														</div><!-- .modal-icon -->
+
+														<p class="modal-desc">
+															Confirm your mobile
+															number and email and
+															agree to the terms.
+														</p><!-- .modal-desc -->
+													</div>
+												</div><!-- .col-sm-4 -->
+
+
+												<!-- List -->
+												<div class="col-sm-4 text-center">
+													<div class="modal-list">
+														<div class="modal-icon">
+															<img src="assets/icons/love-it.svg" alt="" title="">
+														</div><!-- .modal-icon -->
+
+														<p class="modal-desc">
+															Pay 25% or more today,
+															then 3 equal instalments
+															every 2 weeks.
+														</p><!-- .modal-desc -->
+													</div>
+												</div><!-- .col-sm-4 -->
+
+
+												<!-- List -->
+												<div class="col-sm-4 text-center">
+													<div class="modal-list">
+														<div class="modal-icon">
+															<img src="assets/icons/shipment-box.svg" alt="" title="">
+														</div><!-- .modal-icon -->
+
+														<p class="modal-desc">
+															We’ll ship your order
+															without delay.
+														</p><!-- .modal-desc -->
+													</div>
+												</div><!-- .col-sm-4 -->
+											</div>
+
+
+											<div class="ifmodal-footer text-center">
+												$5 late fee applies.
+											</div>
+										</div>
+									</div><!-- End Hover Text -->
+							   </div>
+                            </div>
+                         </div><!-- .payment-card -->
+                      </div>	
+                    </div>
+                </div><!-- .lp-box -->
+            </div>
+        </article><!-- .content -->
+    </div>
+</div>
+
+
+<!-- Includes all JS Libs -->
+<!-- all vendors lib -->
+<script src="js/vendor.js"></script>
+<!--  payment lib -->
+<script src="js/jquery.payment.min.js"></script>
+<!--  datepicker lib -->
+<script src="js/datepicker.min.js"></script>
+<!--  datepicker lang-en -->
+<script src="js/i18n/datepicker.en.js"></script>
+<!-- creditCardValidator -->
+<script src="js/jquery.creditCardValidator.js"></script>
+<!-- OS ditect --> 
+<script src="js/lp-ditect.js"></script>
+<!-- Progressbar lib -->
+<script src="js/jQuery-plugin-progressbar.js"></script>
+<!-- Custom scripts -->
+<script src="js/app.js"></script>
+</body>
+</html>

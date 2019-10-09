@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.3-Modal" transform="translate(-279.000000, -428.000000)" stroke="#56B462" stroke-width="1.5">
+            <g id="Modal" transform="translate(165.000000, 223.000000)">
+                <g id="1" transform="translate(115.000000, 206.000000)">
+                    <path d="M20.573913,-4.44088786e-16 C17.8125826,0.000347323753 15.2798619,1.51214031 14,3.924 C12.4123693,0.945477286 8.96933797,-0.582643762 5.65450721,0.220018829 C2.33967645,1.02268142 0.00684291531,3.94938689 0,7.314 C0,11.352 2.54434783,15.042 5.83130435,18.072 C8.3670853,20.2870055 11.1011487,22.2711078 14,24 C16.877112,22.2392581 19.6085182,20.2570842 22.1686957,18.072 C25.8208696,14.784 28,11.352 28,7.314 C28.0000007,5.37316658 27.2174174,3.5119122 25.8245807,2.14009853 C24.431744,0.768284848 22.5428738,-0.00159215211 20.573913,-4.44088786e-16 Z" id="Heart"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

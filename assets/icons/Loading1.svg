@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 74 74" style="enable-background:new 0 0 74 74;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#EAEAEA;stroke-width:5;}
+	.st1{fill:none;stroke:#8C95A8;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>Loading</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<g transform="translate(-475.000000, -269.000000)">
+		<g id="Loading" transform="translate(477.000000, 271.000000)">
+			<circle id="Oval-2" class="st0" cx="35" cy="35" r="35"/>
+			<g id="lock-1" transform="translate(26.000000, 22.000000)">
+				<circle id="Oval" class="st1" cx="9" cy="15" r="1"/>
+				<path id="Shape" class="st1" d="M9,16v3"/>
+				<path id="Rectangle-path" class="st1" d="M1.5,9.5h15c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1h-15c-0.6,0-1-0.4-1-1v-12
+					C0.5,9.9,0.9,9.5,1.5,9.5z"/>
+				<path class="st1" d="M3.5,6C3.5,3,6,0.5,9,0.5S14.5,3,14.5,6v3.5h-11V6z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

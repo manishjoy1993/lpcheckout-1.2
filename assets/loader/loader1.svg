@@ -1,0 +1,22 @@
+<svg width="113px" height="113px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ring" style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; position: relative;">
+	
+	<svg width="15px" height="22.5px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="43" y="38">
+		<g id="1.-Checkout-Updates-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+			<g id="1.-Loading" transform="translate(-503.000000, -293.000000)" stroke="#8C95A8">
+				<g id="Loading" transform="translate(477.000000, 271.000000)">
+					<g id="lock-1" transform="translate(26.000000, 22.000000)">
+						<circle id="Oval" cx="9" cy="15" r="1"></circle>
+						<path d="M9,16 L9,19" id="Shape"></path>
+						<rect id="Rectangle-path" x="0.5" y="9.5" width="17" height="14" rx="1"></rect>
+						<path d="M3.5,6 C3.5,2.96243388 5.96243388,0.5 9,0.5 C12.0375661,0.5 14.5,2.96243388 14.5,6 L14.5,9.5 L3.5,9.5 L3.5,6 Z" id="Shape"></path>
+					</g>
+				</g>
+			</g>
+		</g>
+	</svg>
+	
+	<circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke="{{config.base}}" ng-attr-stroke-width="{{config.width}}" fill="none" r="30" stroke="#EAEAEA" stroke-width="4"/>
+	
+	<circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke="{{config.stroke}}" ng-attr-stroke-width="{{config.innerWidth}}" ng-attr-stroke-linecap="{{config.linecap}}" fill="none" r="30" stroke="#3399ff" stroke-width="4" stroke-linecap="square"><animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;180 50 50;720 50 50" keyTimes="0;0.5;1" dur="1.5s" begin="0s" repeatCount="indefinite"/><animate attributeName="stroke-dasharray" calcMode="linear" values="9.42477796076938 179.0707812546182;131.94689145077132 56.548667764616255;9.42477796076938 179.0707812546182" keyTimes="0;0.5;1" dur="1.5" begin="0s" repeatCount="indefinite"/>
+	</circle>
+</svg>

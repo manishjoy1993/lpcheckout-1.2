@@ -1,0 +1,18 @@
+<svg width="75px" height="75px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ring" style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; position: relative;">
+	
+	<svg width="27px" height="18px" viewBox="0 0 30 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="37" y="41">
+		<g id="1.-Checkout-Updates-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g id="6.1-Success" transform="translate(-498.000000, -295.000000)" fill-rule="nonzero" stroke="#82D275" stroke-width="2">
+				<g id="Loading" transform="translate(477.000000, 270.000000)">
+					<polyline id="Path-4" points="22 35 31.5 44.5 50 26"></polyline>
+				</g>
+			</g>
+		</g>
+	</svg>
+	
+	<circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke="{{config.base}}" ng-attr-stroke-width="{{config.width}}" fill="none" r="30" stroke="#EAEAEA" stroke-width="5"/>
+	
+	
+	<circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke="{{config.stroke}}" ng-attr-stroke-width="{{config.innerWidth}}" ng-attr-stroke-linecap="{{config.linecap}}" fill="none" r="30" stroke="#82D275" stroke-width="5" stroke-linecap="square"><animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;180 50 50;720 50 50" keyTimes="0;0.5;1" dur="1.5s" begin="0s" repeatCount="indefinite"/><animate attributeName="stroke-dasharray" calcMode="linear" values="9.42477796076938 179.0707812546182;131.94689145077132 56.548667764616255;9.42477796076938 179.0707812546182" keyTimes="0;0.5;1" dur="1.5" begin="0s" repeatCount="indefinite"/>
+	</circle>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1.-Checkout-Updates-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="2.-Card-payment-(hover)" transform="translate(-642.000000, -452.000000)">
+            <g id="Tooltip" transform="translate(290.000000, 403.000000)">
+                <g id="Group-4" transform="translate(17.000000, 38.000000)">
+                    <g id="Icon-3" transform="translate(335.000000, 11.000000)">
+                        <path d="M18.8,0.919 C18.6120807,0.655749705 18.3084413,0.499645504 17.985,0.5 L6.015,0.5 C5.69155873,0.499645504 5.3879193,0.655749705 5.2,0.919 L0.686,7.239 C0.564998592,7.40856636 0.499971854,7.61168752 0.5,7.82 L0.5,22.5 C0.5,23.0522847 0.94771525,23.5 1.5,23.5 L22.5,23.5 C23.0522847,23.5 23.5,23.0522847 23.5,22.5 L23.5,7.82 C23.5000281,7.61168752 23.4350014,7.40856636 23.314,7.239 L18.8,0.919 Z" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M12,0.5 L12,7.5" id="Shape" stroke="#BABABA"></path>
+                        <path d="M0.553,7.5 L23.447,7.5" id="Shape" stroke="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
