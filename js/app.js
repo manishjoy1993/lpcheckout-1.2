@@ -372,36 +372,44 @@ $(function() {
 	/* --------------------------------------------------------------------- */
     /* 	11. Timeline Events;
     /* --------------------------------------------------------------------- */
-	$(".form-item .terms").find("input").prop("checked", false);
-	$(".form-item .submit-order").find("input").attr("disabled");
+	$(".form-item .terms").find("input").prop("checked", false); // Reset Checkbox;
 	
 	$(".form-item .terms-line").click(function(){
 		if($(this).find("input").prop('checked') == true){
-			//clearTimeout(resetss);
 			$(this).addClass("checkmark-term-active");
 			$(".submit-order").addClass("submit-process");
 			
-			setTimeout(
-            function() {
-                $(".short-text").hide(100);
-				$(".awaiting, .long-text").show(500);
-				$(".submit-order input").removeAttr("disabled");
-            },
-            2000);
+			$(".short-text").hide();
+			$(".awaiting, .long-text").fadeIn(200);
+			
+			$(this).find("input").attr("disabled","disabled");
 		}
 		else if($(this).find("input").prop('checked') == false){
-			//clearTimeout(reset);
 			$(this).removeClass("checkmark-term-active");
 			$(".submit-order").removeClass("submit-process");
 			
-			setTimeout(
-            function() {
-                $(".short-text").show(100);
-				$(".awaiting, .long-text").hide(500);
-				$(".submit-order input").attr("disabled");
-            },
-            2000);
+			$(".short-text").fadeIn(100);
+			$(".awaiting, .long-text").fadeOut(100);
 		}
 	});
-
+	
+	
+	
+	/* --------------------------------------------------------------------- */
+    /* 	12. Click Payment Method Tab;
+    /* --------------------------------------------------------------------- */
+	$(".tab-payment li").first().click(function(e){
+		e.preventDefault;
+		if(!$(".frame-payment-methods").hasClass("frame-pm-active")){
+			$(".loader-frame").fadeIn(500);
+			setTimeout(
+			function() {
+				$(".review-frame").fadeOut(500);
+				$(".loader-frame").fadeOut(1000);
+				$(".frame-payment-methods").fadeIn(600);
+				$(".frame-payment-methods").addClass("frame-pm-active");
+			},
+			1500);
+		}
+	});
 });
